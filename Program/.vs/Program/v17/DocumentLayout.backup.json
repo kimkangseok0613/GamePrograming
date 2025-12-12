@@ -3,14 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FD9737A-BF1E-4670-831D-093F471E3EFD}|..\\Class 1th (Compile)\\Class 1th (Compile).vcxproj|C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 1th (Compile)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA93BBA9-B316-470D-889B-B42543741C60}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\GamePrograming\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA93BBA9-B316-470D-889B-B42543741C60}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,39 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 1th (Compile)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class 1th (Compile)\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 1th (Compile)\\Source.c",
-              "RelativeToolTip": "..\\Class 1th (Compile)\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-11T12:36:14.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "stdio.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ViewState": "AgIAAHsCAAAAAAAAAAAkwIUCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-11T12:22:21.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Program\\Source.c",
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-11T11:27:20.685Z",
+              "WhenOpened": "2025-12-12T11:34:35.605Z",
               "EditorCaption": ""
             }
           ]
