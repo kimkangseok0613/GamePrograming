@@ -90,6 +90,17 @@ void main()
 	// 중첩 반복문
 
 	// 구구단 2단
+	
+	int n = 3;
+
+	for (int i = n;i <=n ;i++) // n = 2, 2단, n = 3, 3단 ...
+	{
+		for (int j = 1;j <= 9;j++)
+		{
+			printf("%d x %d = %d\n", i, j, i * j);
+		}
+	}
+
 #pragma endregion
 
 
