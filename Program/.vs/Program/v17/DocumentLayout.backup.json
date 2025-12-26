@@ -5,12 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA93BBA9-B316-470D-889B-B42543741C60}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\GamePrograming\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA93BBA9-B316-470D-889B-B42543741C60}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6F828A-1759-41F4-925E-2917B3A2354A}|..\\Class 7th (Type Conversion)\\Class 7th (Type Conversion).vcxproj|C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 7th (Type Conversion)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E3EE0D-AC3F-4BF3-9D1C-A1EAE8826210}|..\\Class 6th (Iteration Statement)\\Class 6th (Iteration Statement).vcxproj|C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 6th (Iteration Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,32 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 7th (Type Conversion)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class 7th (Type Conversion)\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 7th (Type Conversion)\\Source.c",
-              "RelativeToolTip": "..\\Class 7th (Type Conversion)\\Source.c",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-24T12:24:35.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 6th (Iteration Statement)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class 6th (Iteration Statement)\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Class 6th (Iteration Statement)\\Source.c",
-              "RelativeToolTip": "..\\Class 6th (Iteration Statement)\\Source.c",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-24T12:24:30.164Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -54,7 +24,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\GamePrograming\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwBsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAHwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-18T11:17:25.759Z",
               "EditorCaption": ""
