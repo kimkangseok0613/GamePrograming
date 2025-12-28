@@ -57,7 +57,7 @@ void main()
 	// 연속적인 메모리 공간에 저장된 문자 변수의
 	// 집합입니다.
 
-	 const char* character = "World";
+	// const char* character = "World";
 	// 
 	// printf("character의 값 : %p\n", character);
 	// printf("character가 가리키는 문자열 : %s\n", character);
