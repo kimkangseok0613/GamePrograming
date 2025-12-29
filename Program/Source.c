@@ -17,14 +17,11 @@ void reset(char grade, int level, float experience)
 
 void swap(int* argumentX, int* argumentY)
 {
-	int* temporary = 0;
+	int temporary;
 
-	(int)*temporary = (int)&argumentY;
-	*argumentY = &argumentX;
-	*argumentX = &temporary;
-
-	printf("x의 값 : %d\n", (int)argumentX);
-	printf("y의 값 : %d\n", (int)argumentY);
+	temporary = *argumentY;
+	*argumentY = *argumentX;
+	*argumentX = temporary;
 }
 
 void main()
@@ -79,7 +76,7 @@ void main()
 	// printf("x의 값 : %d\n", x);
 	// printf("y의 값 : %d\n", y);
 
-	swap(x, y);
+	swap(&x, &y);
 
 	printf("x의 값 : %d\n", x);
 	printf("x의 값 : %d\n", y);
