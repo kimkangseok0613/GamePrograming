@@ -1,27 +1,66 @@
 #include <stdio.h>
 
-void initialize()
+void initialize() // 함수
 {
 	printf("initialize...\n");
 }
 
-void coordinate(int x, int y)
+void coordinate(int x, int y) // 매개 변수
 {
 	printf("x : %d\ny : %d\n", x, y);
 }
 
-void reset(char grade, int level, float experience)
+void reset(char grade, int level, float experience) // 매개 변수
 {
 	printf("grade : %c\nlevel : %d\nexperience : %f\n", grade, level, experience);
 }
 
-void swap(int* argumentX, int* argumentY)
+void swap(int* argumentX, int* argumentY) // 인수
 {
 	int temporary;
 
 	temporary = *argumentY;
 	*argumentY = *argumentX;
 	*argumentX = temporary;
+}
+
+int absolute(int x) // 반환형
+{
+	// if (x < 0)
+	// {
+	// 	printf("%d의 절대값 : %d\n", x, x * (-1));
+	// }
+	// else
+	// {
+	// 	printf("%d의 절대값 : %d\n", x, x);
+	// }
+
+	return (x < 0) ? -x : x;
+	// (조건식) ? true : false;
+}
+
+void function(int x) // 재귀 함수
+{
+	// if (0<x)
+	// {
+	// 	printf("%d\n",x);
+	// 	x -= 1;
+	// 	function(x);
+	// }
+
+	if (x <= 0)
+	{
+		return;
+	}
+	printf("%d\n", x);
+	function(x - 1);
+}
+
+inline int square(int x) // 인라인 함수
+{
+	// printf("%d\n", x * x);
+
+	return x * x;
 }
 
 void main()
@@ -53,19 +92,10 @@ void main()
 #pragma region 인수
 	// 함수가 호출될 때 매개 변수에 실제로 전달되는 값입니다.
 
-
-
-	// 인수의 경우 함수에 있는 매개 변수에 따라 전달할 수 있는
-	// 인수의 수가 결정되며, 값을 전달하는 인수와 값을 전달받는
-	// 매개 변수의 자료형이 서로 일치해야 합니다.
-
-#pragma endregion
-
-#pragma region 과제
 	// x, y 값 서로 바꾸기
 
-	int x = 10;
-	int y = 20;
+	// int x = 10;
+	// int y = 20;
 	// 
 	// int temporary = y;
 	// 
@@ -75,11 +105,53 @@ void main()
 	// 
 	// printf("x의 값 : %d\n", x);
 	// printf("y의 값 : %d\n", y);
+	// 
+	// swap(&x, &y);
+	// 
+	// printf("x의 값 : %d\n", x);
+	// printf("y의 값 : %d\n", y);
+	// 
+	// 인수의 경우 함수에 있는 매개 변수에 따라 전달할 수 있는
+	// 인수의 수가 결정되며, 값을 전달하는 인수와 값을 전달받는
+	// 매개 변수의 자료형이 서로 일치해야 합니다.
 
-	swap(&x, &y);
+#pragma endregion
 
-	printf("x의 값 : %d\n", x);
-	printf("x의 값 : %d\n", y);
+#pragma region 반환형
+	// 함수가 실행을 마치고, 호출한 쪽으로 어떤 자료형의 값을
+	// 반환할지 미리 알려주는 형식입니다.
+
+	// absolute(-7);
+	// 
+	// printf("absolute : %d\n", absolute(-7));
+
+	// 함수의 경우 자료형과 반환하는 값의 형태가
+	// 일치하지 않으면 원하는 값을 얻을 수 없습니다.
+
+#pragma endregion
+
+#pragma region 재귀 함수
+	// 어떤 함수에서 자신을 다시 호출하여 작업을
+	// 수행하는 함수입니다.
+	
+	// function(3);
+
+	// 재귀 함수는 함수를 계속 호출하기 때문에 스택 영역에
+	// 메모리가 계속 쌓이게 되므로 스택 오버플로우가 발생합니다.
+
+#pragma endregion
+
+#pragma region 인라인 함수
+	// 함수를 호출하는 대신 함수가 호출되는 위치마다
+	// 함수의 코드를 복사하여 전달하는 방식의 함수입니다.
+
+	// square(2);
+
+	printf("%d\n", square(9));
+
+	// 인라인 함수는 함수를 호출하는 과정이 없으므로 처리 속도가
+	// 빠르지만, 인라인 함수를 많이 사용하게 되면 함수의 코드가
+	// 복사되기 때문에 실제 파일의 크기가 커지게 됩니다.
 
 #pragma endregion
 
